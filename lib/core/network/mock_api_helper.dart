@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 
+import 'mock_models.dart';
 import 'network_config.dart';
 
 class MockAPIHelper {
@@ -37,8 +38,8 @@ class MockAPIHelper {
   }
 
   _getResponse(String url) {
-    if (url == '') {
-      return '';
+    if (url == 'menu-service/menu-list') {
+      return MockModels.menuListResponse;
     }
   }
 }

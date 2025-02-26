@@ -3,14 +3,14 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:shopease/features/presentation/bloc/auth/auth_bloc.dart';
-import 'package:shopease/utils/app_constants.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:snapbite/features/presentation/bloc/menu/menu_bloc.dart';
+import 'package:snapbite/utils/app_constants.dart';
 import 'package:store_redirect/store_redirect.dart';
 
 import '../../../core/service/app_messaging.dart';
@@ -34,7 +34,7 @@ abstract class BaseView extends StatefulWidget {
 
 abstract class BaseViewState<Page extends BaseView> extends State<Page> {
   final appSharedData = injection<AppSharedData>();
-  var authBloc = injection<AuthBloc>();
+  var authBloc = injection<MenuBloc>();
   var deviceInfo = injection<DeviceInfo>();
   LocalPushManager? localPushManager;
 

@@ -42,7 +42,7 @@ class _ShopEaseState extends State<ShopEase> {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-        designSize: const Size(390, 844),
+        designSize: const Size(375, 812),
         minTextAdapt: true,
         builder: (context, child) {
           return MaterialApp(
@@ -52,7 +52,7 @@ class _ShopEaseState extends State<ShopEase> {
             onGenerateRoute: Routes.generateRoute,
             theme: ThemeData(
                 primaryColor: AppColors.initColors().primaryBlue,
-                textTheme: GoogleFonts.poppinsTextTheme(),
+                textTheme: GoogleFonts.urbanistTextTheme(),
                 scaffoldBackgroundColor: AppColors.initColors().nonChangeWhite),
           );
         });

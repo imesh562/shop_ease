@@ -41,6 +41,9 @@ class AppColors {
     required this.newBlack,
     required this.newBlack2,
     required this.updateColor,
+    required this.tabSelectColor,
+    required this.tabBorderColor,
+    required this.menuColor,
   });
 
   Color textFieldFill;
@@ -79,6 +82,9 @@ class AppColors {
   Color newBlack;
   Color newBlack2;
   Color updateColor;
+  Color tabSelectColor;
+  Color tabBorderColor;
+  Color menuColor;
 
   static AppColors initColors() {
     if (AppConstants.selectedTheme == ThemeType.LIGHT) {
@@ -129,6 +135,9 @@ class AppColors {
       switchGrey: const Color(0xFFCBCBCB),
       dark: const Color(0xFF000000),
       updateColor: const Color(0xFF992E00),
+      tabSelectColor: const Color(0xFFEBEFF8),
+      tabBorderColor: const Color(0xFFE8E8E8),
+      menuColor: const Color(0xFF060606),
     );
   }
 
@@ -173,6 +182,9 @@ class AppColors {
       dark: const Color(0xFF000000),
       updateColor: const Color(0xFF992E00),
       networkBorderColor: const Color(0xFFC5C5C5),
+      tabSelectColor: const Color(0xFFEBEFF8),
+      tabBorderColor: const Color(0xFFE8E8E8),
+      menuColor: const Color(0xFF060606),
     );
   }
 }

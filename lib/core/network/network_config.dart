@@ -1,4 +1,4 @@
-import 'package:shopease/flavors/flavor_config.dart';
+import 'package:snapbite/flavors/flavor_config.dart';
 
 const CONNECT_TIMEOUT = 60 * 1000;
 const RECEIVE_TIMEOUT = 60 * 1000;

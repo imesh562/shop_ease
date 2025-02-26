@@ -11,7 +11,7 @@ import '../../../../utils/app_colors.dart';
 import '../../../../utils/app_dimensions.dart';
 import '../../../../utils/app_images.dart';
 import '../../../../utils/navigation_routes.dart';
-import '../../bloc/auth/auth_bloc.dart';
+import '../../bloc/menu/menu_bloc.dart';
 import '../../bloc/base_bloc.dart';
 import '../../bloc/base_event.dart';
 import '../../bloc/base_state.dart';
@@ -24,7 +24,7 @@ class SplashView extends BaseView {
 
 class _SplashViewState extends BaseViewState<SplashView>
     with TickerProviderStateMixin {
-  var bloc = injection<AuthBloc>();
+  var bloc = injection<MenuBloc>();
   String? token;
   PackageInfo? _packageInfo;
 
@@ -57,9 +57,9 @@ class _SplashViewState extends BaseViewState<SplashView>
   Widget buildView(BuildContext context) {
     return Scaffold(
         backgroundColor: AppColors.initColors().nonChangeWhite,
-        body: BlocProvider<AuthBloc>(
+        body: BlocProvider<MenuBloc>(
           create: (_) => bloc,
-          child: BlocListener<AuthBloc, BaseState<AuthState>>(
+          child: BlocListener<MenuBloc, BaseState<MenuState>>(
             listener: (_, state) async {},
             child: Padding(
               padding: EdgeInsets.symmetric(vertical: 20.h, horizontal: 20.w),

@@ -1,10 +1,10 @@
-import 'package:shopease/utils/app_dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:snapbite/utils/app_dimensions.dart';
 
 import '../../../utils/app_colors.dart';
 
-class CachAppBar extends StatelessWidget implements PreferredSizeWidget {
+class SnapBiteAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final bool isGoBackVisible;
   final bool isPreLogin;
@@ -15,7 +15,7 @@ class CachAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool? disableCreateButton;
   final VoidCallback? onCreatePressed;
 
-  CachAppBar({
+  SnapBiteAppBar({
     this.title = '',
     this.actions,
     this.isGoBackVisible = true,

@@ -6,8 +6,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shopease/app/shopease_app.dart';
-import 'package:shopease/utils/enums.dart';
+import 'package:snapbite/app/shopease_app.dart';
+import 'package:snapbite/utils/enums.dart';
 
 import '../core/configurations/app_config.dart';
 import '../core/service/dependency_injection.dart' as di;

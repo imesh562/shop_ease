@@ -1,10 +1,13 @@
 import 'dart:core';
 
-import 'package:shopease/core/network/api_helper.dart';
-import 'package:shopease/core/network/mock_api_helper.dart';
-import 'package:shopease/features/data/datasources/shared_preference.dart';
+import 'package:snapbite/core/network/api_helper.dart';
+import 'package:snapbite/core/network/mock_api_helper.dart';
+import 'package:snapbite/features/data/datasources/shared_preference.dart';
+import 'package:snapbite/features/data/models/responses/menu_list_response.dart';
 
-abstract class RemoteDataSource {}
+abstract class RemoteDataSource {
+  Future<MenuListResponse> getMenuListAPI();
+}
 
 class RemoteDataSourceImpl implements RemoteDataSource {
   final APIHelper apiHelper;
@@ -16,4 +19,17 @@ class RemoteDataSourceImpl implements RemoteDataSource {
     required this.appSharedData,
     required this.mockAPIHelper,
   });
+
+  @override
+  Future<MenuListResponse> getMenuListAPI() async {
+    try {
+      final response = await mockAPIHelper.post(
+        "menu-service/menu-list",
+        body: null,
+      );
+      return MenuListResponse.fromJson(response.data);
+    } on Exception {
+      rethrow;
+    }
+  }
 }

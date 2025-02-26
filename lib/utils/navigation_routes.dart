@@ -15,10 +15,7 @@ class Routes {
             child: SplashView(), type: PageTransitionType.fade);
       case Routes.kDashboardView:
         return PageTransition(
-            child: DashboardView(
-              tab: settings.arguments != null ? settings.arguments as int : 1,
-            ),
-            type: PageTransitionType.fade);
+            child: DashboardView(), type: PageTransitionType.fade);
       default:
         return MaterialPageRoute(
           builder: (_) => const Scaffold(

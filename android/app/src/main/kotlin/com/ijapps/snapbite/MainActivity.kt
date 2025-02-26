@@ -1,4 +1,4 @@
-package com.ijapps.shopease
+package com.ijapps.snapbite
 
 import io.flutter.embedding.android.FlutterActivity
 

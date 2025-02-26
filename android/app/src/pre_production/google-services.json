@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "131794505075",
-    "project_id": "shopease-e7850",
-    "storage_bucket": "shopease-e7850.firebasestorage.app"
+    "project_number": "499401349445",
+    "project_id": "snapbite-9c3da",
+    "storage_bucket": "snapbite-9c3da.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:131794505075:android:0c8afb730bbcbf56fc4906",
+        "mobilesdk_app_id": "1:499401349445:android:23a12a4f200224fcf3462c",
         "android_client_info": {
-          "package_name": "com.ijapps.shopease"
+          "package_name": "com.ijapps.snapbite"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAiGtuRibxMm8RD8pno31PhIygNKdUr3KA"
+          "current_key": "AIzaSyB6QFbnWWHvC7HUbCTjzunWsCTVa2BEBpo"
         }
       ],
       "services": {

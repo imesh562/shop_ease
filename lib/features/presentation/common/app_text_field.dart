@@ -2,8 +2,8 @@ import 'package:currency_text_input_formatter/currency_text_input_formatter.dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shopease/utils/app_dimensions.dart';
-import 'package:shopease/utils/app_images.dart';
+import 'package:snapbite/utils/app_dimensions.dart';
+import 'package:snapbite/utils/app_images.dart';
 import 'package:super_tooltip/super_tooltip.dart';
 
 import '../../../../../utils/app_colors.dart';

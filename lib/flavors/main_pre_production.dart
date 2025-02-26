@@ -6,7 +6,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:shopease/utils/enums.dart';
+import 'package:snapbite/utils/enums.dart';
 
 import '../app/shopease_app.dart';
 import '../core/configurations/app_config.dart';

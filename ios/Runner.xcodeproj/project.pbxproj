@@ -563,7 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AA2B29FED70087FFD1 /* development.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Dev";
+				APP_DISPLAY_NAME = "SnapBite Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -735,7 +735,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -911,7 +911,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AA2B29FED70087FFD1 /* development.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Dev";
+				APP_DISPLAY_NAME = "SnapBite Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1083,7 +1083,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -1097,7 +1097,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AA2B29FED70087FFD1 /* development.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Dev";
+				APP_DISPLAY_NAME = "SnapBite Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1269,7 +1269,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -1340,7 +1340,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9362CA62D3BF8B200F4D01F /* pre_production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Pre";
+				APP_DISPLAY_NAME = "SnapBite Pre";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1510,7 +1510,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1596,7 +1596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9362CA62D3BF8B200F4D01F /* pre_production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Pre";
+				APP_DISPLAY_NAME = "SnapBite Pre";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -1766,7 +1766,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1847,7 +1847,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9362CA62D3BF8B200F4D01F /* pre_production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Pre";
+				APP_DISPLAY_NAME = "SnapBite Pre";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2017,7 +2017,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2103,7 +2103,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AB2B29FED70087FFD1 /* production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = ShopEase;
+				APP_DISPLAY_NAME = SnapBite;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2273,7 +2273,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2362,7 +2362,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3A92B29FED70087FFD1 /* staging.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Stg";
+				APP_DISPLAY_NAME = "SnapBite Stg";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2532,7 +2532,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2618,7 +2618,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3A92B29FED70087FFD1 /* staging.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Stg";
+				APP_DISPLAY_NAME = "SnapBite Stg";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2788,7 +2788,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2871,7 +2871,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AB2B29FED70087FFD1 /* production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = ShopEase;
+				APP_DISPLAY_NAME = SnapBite;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3041,7 +3041,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -3122,7 +3122,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3AB2B29FED70087FFD1 /* production.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = ShopEase;
+				APP_DISPLAY_NAME = SnapBite;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3292,7 +3292,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -3373,7 +3373,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C927E3A92B29FED70087FFD1 /* staging.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "ShopEase Stg";
+				APP_DISPLAY_NAME = "SnapBite Stg";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -3543,7 +3543,7 @@
 					"-weak_framework",
 					"\"UserNotifications\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.shopease;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ijapps.snapbite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

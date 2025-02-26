@@ -34,7 +34,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace 'com.ijapps.shopease'
+    namespace 'com.ijapps.snapbite'
     compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
@@ -53,7 +53,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ijapps.shopease"
+        applicationId "com.ijapps.snapbite"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
@@ -76,19 +76,19 @@ android {
     productFlavors {
         development {
             dimension "flavor-type"
-            resValue "string", "app_name", "ShopEase Dev"
+            resValue "string", "app_name", "SnapBite Dev"
         }
         staging {
             dimension "flavor-type"
-            resValue "string", "app_name", "ShopEase Stg"
+            resValue "string", "app_name", "SnapBite Stg"
         }
         pre_production {
             dimension "flavor-type"
-            resValue "string", "app_name", "ShopEase Pre Prod"
+            resValue "string", "app_name", "SnapBite Pre Prod"
         }
         production {
             dimension "flavor-type"
-            resValue "string", "app_name", "ShopEase"
+            resValue "string", "app_name", "SnapBite"
         }
     }
 

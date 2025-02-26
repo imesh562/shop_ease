@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:shopease/features/data/models/responses/user_data_response.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:snapbite/features/data/models/responses/user_data_response.dart';
 
 const String _APP_TOKEN = 'app_token';
 const String _PUSH_TOKEN = 'push_token';

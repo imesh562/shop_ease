@@ -1,8 +1,8 @@
-import 'package:shopease/features/domain/entities/common/drop_down_item.dart';
-import 'package:shopease/features/presentation/common/app_button.dart';
-import 'package:shopease/utils/enums.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:snapbite/features/domain/entities/common/drop_down_item.dart';
+import 'package:snapbite/features/presentation/common/app_button.dart';
+import 'package:snapbite/utils/enums.dart';
 
 import '../../../../../utils/app_colors.dart';
 import '../../../../../utils/app_dimensions.dart';
